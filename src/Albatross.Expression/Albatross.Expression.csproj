@@ -1,14 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-		<AssemblyVersion>2.3.52.0</AssemblyVersion>
-		<FileVersion>2.3.52.0</FileVersion>
+		<AssemblyVersion>2.3.53.0</AssemblyVersion>
+		<FileVersion>2.3.53.0</FileVersion>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<Version>2.3.52.0</Version>
+		<Version>2.3.53.0</Version>
 		<Authors>Workiom.Expression</Authors>
 		<PackageId>Workiom.Expression</PackageId>
 		<Product>Workiom.Expression</Product>
-		<Description>Fix CreateQrCode Func Doc</Description>
+		<Description>Formula engine for Workiom, based on Albatross.Expression.</Description>
+		<PackageReleaseNotes>2.3.53: same code as 2.3.52, package description fixed. 2.3.52: "+" keeps the text when the other side is empty.</PackageReleaseNotes>
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="NetBarcode" Version="1.8.1"/>
